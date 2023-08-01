@@ -1,0 +1,124 @@
+:root {
+	--maincolor:#4bb84d;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+body {
+	background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-position: center;
+  background-position: center !important;
+  background-size: cover !important;
+  min-height: 100vh;
+  position: relative;
+  background-attachment: fixed;
+}
+img {max-width: 100%;}
+.user-details {
+  background: #300106;
+  border: 1px solid #ffef7b;
+  border-radius: 25px;
+}
+.user-details p {
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 20px;
+  text-align: center;
+  padding-left: 50px;
+}
+.user-details p:nth-child(3) {
+  border-top: 1px solid #ccb45e;
+  color: #ffef7b;
+}
+.profile {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ffef7b;
+  left: -6px;
+  top: -3px;
+}
+.dot-btn li {
+  list-style: none;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(#007c9b,#00a0c8,#0095ba,#009fc7);
+  margin-right: 5px;
+  box-shadow: 0 0 7px #000;
+}
+.dot-btn li.dot-3 {
+  background: linear-gradient(#9e1515,#e91f1f,#f32020,#eb1f1f);
+}
+.dot-btn li.dot-2 {
+  background: linear-gradient(#cca537,#e9bc3f,#d0a838,#e1b53c);
+}
+.dot-btn {
+  border: 2px solid #ff2735;
+  width: auto;
+  display: flex;
+  padding: 4px 8px !important;
+  border-radius: 25px;
+}
+.btndown {
+  bottom: 9%;
+}
+.fortune-con {
+  max-width: 100%;
+  width: 100%;
+  margin: 0px auto;
+}
+
+
+@media (min-width:1400px) {
+  .fortune-con {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0px auto;
+}
+}
+
+@media (max-width: 767px) {
+  .wheel-block {
+    padding-bottom: 100px;
+  }
+  .user-details p {
+    font-size: 10px;
+  }
+  .user-details p img {
+  width: 11px;
+}
+.profile {
+  width: 36px;
+  height: 36px;
+}
+.user-details p {padding: 0 10px;
+  padding-left: 35px;
+}
+.header .w-auto:first-child button img {
+  width: 12px;
+}
+.user-details + button img {
+  width: 90px !important;
+}
+.header .w-auto:last-child button img {
+  width: 15px;
+}
+.dot-btn li {
+  width: 10px;
+  height: 10px;
+}
+.dot-btn {
+  width: 95%;
+  justify-content: space-between;
+}
+
+}
